@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #fcb8b87c;
+}
+
+.header {
+  padding: 2px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  box-shadow: .1px .1px 2px rgb(0, 0, 0);
+}
+
+.leftcolumn {   
+  float: left;
+  width: 100%;
+}
+
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   border-radius: 10px;
+   box-shadow: .1px .1px 2px rgb(0, 0, 0);
+   text-align: justify;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+form label, form input {
+  display: block;
+  width: 25%;
+  margin-bottom: 10px;
+}
+
+form textarea {
+  width: 25%;
+  margin-bottom: 10px;
+}
+
+.invisible {
+  display: none;
+}
